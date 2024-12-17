@@ -1,0 +1,6 @@
+Sr.No|Name|Roll_No|Subject|Marks
+1|Priyanka|101|Math|85
+2|Pradnya|102|Computer|88
+3|Pranjali|103|English|90
+4|Prachi|104|Science|80
+
