@@ -3,12 +3,6 @@
 # File name
 DATA_FILE="students_data.txt"
 
-# Check if the file exists
-if [ ! -f "$DATA_FILE" ]; then
-    echo "Error: File '$DATA_FILE' not found."
-    exit 1
-fi
-
 # Take user input for Name and field to search (Roll_No, Marks, or Subject)
 read -p "Enter Name: " NAME
 read -p "Roll_No, Marks, Subject: " FIELD
@@ -19,7 +13,7 @@ if [ -z "$NAME" ] || [ -z "$FIELD" ]; then
     exit 1
 fi
 
-# Use awk to filter and print the required field for the given name
+# Using awk to filter and print the required field for the given name
 awk -F "|" -v name="$NAME" -v field="$FIELD" '
     BEGIN {
         # Field mapping (skipping header row)

@@ -1,4 +1,4 @@
-Sr.No|Name|Roll_No|Subject|Marks
+Sr_No|Name|Roll_No|Subject|Marks
 1|Priyanka|101|Math|85
 2|Pradnya|102|Computer|88
 3|Pranjali|103|English|90
